@@ -1,0 +1,10 @@
+# define the runtime language
+runtime "node"
+stack "node-0.10"
+# exec is the file that will be executed:
+exec "index.js"
+file "package.json" # include dependency manifest when uploading
+build "npm config set strict-ssl false; npm install --production"
+
+# build your dependencies remotely from package.json
+remote # you can use "full_remote_build true" or shorthand "remote"
