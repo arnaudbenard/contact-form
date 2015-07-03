@@ -5,10 +5,4 @@ Solutions like https://formspree.io/ exist but I am a developer and decided to r
 
 ## How it works
 
-The backend is handled by Iron Worker, I will add a blogpost explaining everything soon.
-
-## Upload code
-
-```
-iron_worker upload contact_form
-```
+The backend is handled by Iron Worker, you can find more infos here: http://arnaudbenard.com/2015/07/01/build-your-own-contact-form/
